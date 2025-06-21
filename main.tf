@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "this" {
+/*resource "aws_s3_bucket" "this" {
   bucket = "test-buckets-233444-${var.resource_suffix2}"
 }
 
@@ -11,4 +11,4 @@ resource "aws_s3_bucket_versioning" "versioning_example" {
 
 resource "aws_sns_topic" "this" {
   name = "test-topic-${var.resource_suffix2}"
-}
+}*/
